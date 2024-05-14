@@ -10,8 +10,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmployeeDetailsServiceImpl implements EmployeeDetailsService {
 
+    private final EmployeeDetailsRepository employeeDetailsRepository;
+
     @Autowired
-    private EmployeeDetailsRepository employeeDetailsRepository;
+    public EmployeeDetailsServiceImpl(EmployeeDetailsRepository employeeDetailsRepository) {
+        this.employeeDetailsRepository = employeeDetailsRepository;
+    }
 
     @Override
     public void insertEmployee(EmployeeDetails employee) {

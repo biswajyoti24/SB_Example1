@@ -6,7 +6,7 @@ import java.sql.Timestamp;
 
 
 @Entity
-@Table(name = "biswajyoti_db2.employee")
+@Table(name = "employee")
 @NamedQuery(name = "EmployeeDetails.findAll", query = "SELECT e FROM EmployeeDetails e" )
 public class EmployeeDetails implements Serializable {
 
