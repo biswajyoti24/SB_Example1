@@ -1,8 +1,8 @@
-package com.example.sb_example1.controller;
+package com.example.java_program.controller;
 
-import com.example.sb_example1.business.services.EmployeeDetailsService;
-import com.example.sb_example1.model.EmployeeDetails;
-import com.example.sb_example1.repository.EmployeeDetailsRepository;
+import com.example.java_program.business.services.EmployeeDetailsService;
+import com.example.java_program.model.EmployeeDetails;
+import com.example.java_program.repository.EmployeeDetailsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

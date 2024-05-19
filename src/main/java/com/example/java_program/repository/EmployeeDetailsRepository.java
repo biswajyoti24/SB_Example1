@@ -1,6 +1,7 @@
-package com.example.sb_example1.repository;
+package com.example.java_program.repository;
 
-import com.example.sb_example1.model.EmployeeDetails;
+import com.example.java_program.model.EmployeeDetails;
+import com.example.java_program.model.EmployeeDetails;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
