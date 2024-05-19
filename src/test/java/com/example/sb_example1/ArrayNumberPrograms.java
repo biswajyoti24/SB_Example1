@@ -69,6 +69,7 @@ public class ArrayNumberPrograms {
         System.out.println("Reverse array : " + reverse[0] + " " + reverse[1] + " " + reverse[2] + " " + reverse[3] + " " + reverse[4] + " " + reverse[5]);
         System.out.println("========================================================");
 
+
         /*Find the smallest element*/
         int min = arr[0];
         for (int i = 1; i < arr.length; i++) {
@@ -120,6 +121,7 @@ public class ArrayNumberPrograms {
         System.out.println("Second smallest element : " + secondSmallest);
         System.out.println("========================================================");
 
+
         /*Find the sum of alternate elements*/
         int sumOfAlternateElement = 0;
         for (int i = 0; i < arr.length; i += 2) {
@@ -137,10 +139,12 @@ public class ArrayNumberPrograms {
         System.out.println("Sum of all elements : " + sumOfAllElement);
         System.out.println("========================================================");
 
+
         /*Find the average of all elements*/
         int avg = sumOfAllElement / arr.length;
         System.out.println("Average of all elements : " + avg);
         System.out.println("========================================================");
+
 
         /*Find the number of even elements*/
         int count = 0;
@@ -152,6 +156,7 @@ public class ArrayNumberPrograms {
         System.out.println("Number of even elements : " + count);
         System.out.println("========================================================");
 
+
         /*Find the number of odd elements*/
         count = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -161,6 +166,7 @@ public class ArrayNumberPrograms {
         }
         System.out.println("Number of odd elements : " + count);
         System.out.println("========================================================");
+
 
         /*Find the number of prime elements*/
         count = 0;
@@ -179,6 +185,7 @@ public class ArrayNumberPrograms {
         System.out.println("Number of prime elements : " + count);
         System.out.println("========================================================");
 
+
         /*Find the number of palindrome elements*/
         count = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -196,6 +203,7 @@ public class ArrayNumberPrograms {
         System.out.println("Number of palindrome elements : " + count);
         System.out.println("========================================================");
 
+
         /*Find the number of perfect square elements*/
         count = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -207,6 +215,7 @@ public class ArrayNumberPrograms {
         System.out.println("Number of perfect square elements : " + count);
         System.out.println("========================================================");
 
+
         /*Find the number of perfect cube elements*/
         count = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -217,6 +226,7 @@ public class ArrayNumberPrograms {
         }
         System.out.println("Number of perfect cube elements : " + count);
         System.out.println("========================================================");
+
 
         /*Find the number of Armstrong elements*/
         count = 0;
